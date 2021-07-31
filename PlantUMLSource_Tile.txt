@@ -1,0 +1,12 @@
+@startuml
+Class Tile
+{
+
+-letter: char
+-value: int
++Tile(l: char, v: int)
++toString(): String
++equals(): boolean
+
+}
+@enduml
